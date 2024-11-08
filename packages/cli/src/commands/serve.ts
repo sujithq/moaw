@@ -50,10 +50,11 @@ export async function serve(options: ServeOptions = {}) {
       debug(`Using first workshop found: ${workshopFile}`);
       debug(`Workshop folder: ${workshopFolder}`);
       targetPath = isCurrentFolder ? workshopFile : workshopFolder;
+      debug(`Target path: ${targetPath}`);
       isPathFolder = !isCurrentFolder;
     }
 
-    const startPath = `/workshop/${isPathFolder ? targetPath + '/' : path.basename(targetPath)}`;
+    const startPath = `/workshop/${path.basename(targetPath) + (isPathFolder ? '/' : '')}`;
 
     browserSync.init(
       {
@@ -92,7 +93,12 @@ export async function serve(options: ServeOptions = {}) {
           throw error;
         }
 
-        const url = `http://${host}:${port}${startPath}`;
+        const codespace = process.env.CODESPACE_NAME;
+        const url =
+          host === 'localhost' && codespace
+            ? `https://${codespace}-${port}.app.github.dev${startPath}`
+            : `http://${host}:${port}${startPath}`;
+
         console.info(`Preview workshop at ${url}`);
         console.info(`Watching for changes...`);
       }

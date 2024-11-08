@@ -244,7 +244,6 @@
   audience: students, pro devs
   level: beginner
   tags: azure, Azure Dev Center, Microsoft Dev Box, Azure Deployment Environment, Az Dev CLI, csu
-  navigation_levels: 3
 
 - title: Product Hands-on Lab - Serverless
   url: https://microsoft.github.io/moaw/workshop/gh:microsoft/hands-on-lab-serverless/main/docs/
@@ -264,8 +263,7 @@
   duration_minutes: 300
   audience: students, pro devs
   level: beginner
-  tags: azure, azure functions, logic apps, event grid, key vault, cosmos db, email, app service, web pubsub, static web app, csu
-  navigation_levels: 3
+  tags: azure, azure functions, logic apps, event grid, key vault, cosmos db, web pubsub, static web app, csu
 
 - title: Product Hands-on Lab - Redis Cache in the Azure world
   url: https://microsoft.github.io/moaw/workshop/gh:microsoft/hands-on-lab-redis/main/docs/
@@ -286,7 +284,6 @@
   audience: students, pro devs
   level: beginner
   tags: azure, azure cache for redis, database, serverless, apim, cache, csu
-  navigation_levels: 3
 
 - title: Using Copilot with Node.js and Azure
   url: https://microsoft.github.io/moaw/workshop/gh:azure-samples/copilot-nodejs-todo/main/docs/
@@ -318,3 +315,225 @@
   audience: students, pro devs
   level: intermediate
   tags: azure, open AI
+
+- title: Azure Container Apps - Workshop
+  url: https://azure.github.io/aca-dotnet-workshop
+  language: en
+  last_updated: 2023-10-10
+  type: workshop
+  description: A Dotnet Azure Container Apps workshop showcasing how to accelerate developers ability to develop and ship distributed applications.
+  authors:
+    - simonkurtz
+  contacts:
+    - '@simonkurtz' 
+  duration_minutes: 420
+  audience: students, pro devs, architect
+  level: intermediate
+  tags: azure, ACA, Dapr, keda, container, .net, app, container apps, csu
+
+- title: Build an Intelligent App with AI - Workshop
+  url: https://github.com/Azure/intro-to-intelligent-apps/tree/main
+  language: en
+  last_updated: 2023-10-10
+  type: workshop
+  description: This repository introduces and helps organizations get started with building AI Apps and incorporating Large Language Models (LLMs) into them.
+  authors:
+    - Kevin Harris
+    - Dennis Zielke
+    - Mark Whitby
+  contacts:
+    - '@kevinhar'
+    - '@dzielke'
+    - '@mawhitby'
+  duration_minutes: 420
+  audience: students, pro devs, architect
+  level: beginner
+  tags: azure, llm, Large Language Models, Vectorstores, OpenAI, AI, embeddings, Langchain, Semantic Kernel, prompt engineering, csu
+
+- title: Create your own ChatGPT with Retrieval-Augmented-Generation
+  url: https://microsoft.github.io/moaw/workshop/gh:azure-samples/azure-openai-rag-workshop/base/docs/
+  language: en
+  last_updated: 2023-11-10
+  type: workshop
+  description: Discover how to create and populate a vector database, create a Web chat interface and an API to expose your agent to the Web interface. 
+  authors:
+    - Yohan Lasorsa
+    - Julien Dubois
+    - Christopher Maneu
+  contacts:
+    - '@sinedied'
+    - '@juliendubois'
+    - '@cmaneu'
+  duration_minutes: 120
+  audience: students, devs
+  level: intermediate
+  tags: chatgpt, openai, langchain, retrieval-augmented-generation, azure, containers, docker, static web apps, javascript, typescript, node.js, azure cognitive search, fastify, azure container apps
+
+- title: Azure Container Apps - Hands on Lab  
+  url: https://markharrison.io/lab-azure-container-apps/      
+  description: Hands on Lab and demo script for Azure Container Apps
+  language: en                           
+  last_updated: 2024-03-14
+  type: workshop                        
+  level: beginner                        
+  github_url: https://github.com/markharrison/lab-azure-container-apps
+  authors:                                
+    - Mark Harrison                          
+  contacts:                               
+    - '@markharrison'
+  duration_minutes: 60                    
+  audience: students, pro devs             
+  tags: azure, ACA, Dapr, container, .net, app, container apps 
+
+- title: Create self-study Flashcards using RAG (Retrieval Augmented Generation) with Microsoft Fabric and Azure OpenAI  
+  url: https://moaw.dev/workshop/?src=gh:microsoft/flashcards-workshop/main/workshop.md      
+  description: Learn how to use Microsoft Fabric and Azure OpenAI to generate a set of study flashcards. Connect Fabric to Azure Blob Storage to store the flashcards and QR codes. Generate a PDF with the flashcards.
+  language: en                           
+  last_updated: 2024-03-25
+  type: workshop                        
+  level: beginner                        
+  github_url: https://github.com/microsoft/flashcards-workshop
+  authors:                                
+    - Alvaro Videla                        
+  contacts:                               
+    - '@old_sound'
+  duration_minutes: 30                    
+  audience: students, pro devs             
+  tags: openai, fabric, python, flashcards, Microsoft Fabric, Azure OpenAI 
+  
+- title: Product Hands-on Lab - Functions
+  url: https://microsoft.github.io/moaw/workshop/gh:microsoft/hands-on-lab-functions/main/docs/
+  github_url: https://github.com/microsoft/hands-on-lab-functions
+  language: en
+  last_updated: 2024-04-18
+  type: workshop
+  description:  This workshop will cover Azure Functions service that you will use to build a complete real world scenario.
+  authors:
+    - Damien Aicheh
+    - Iheb Khemissi
+  contacts:
+    - "@damienaicheh"
+    - "@ikhemissi"
+  duration_minutes: 180
+  audience: students, pro devs
+  level: beginner
+  tags: azure, azure functions, azure durable functions, cosmos db, web pubsub, static web app, api management, apim, codespace, devcontainer, csu
+  navigation_levels: 3
+
+- title: Product Hands-on Lab - Platform engineering for Ops
+  url: https://microsoft.github.io/moaw/workshop/gh:microsoft/hands-on-lab-platform-engineering-for-ops/main/docs/
+  github_url: https://github.com/microsoft/hands-on-lab-platform-engineering-for-ops
+  language: en
+  last_updated: 2024-06-14
+  type: workshop
+  description:  This workshop will cover the topic of platform engineering from an Ops perspective.
+  authors:
+    - Fethi Dilmi
+    - Damien Aicheh
+  contacts:
+    - "@fethidilmi"
+    - "@damienaicheh"
+  duration_minutes: 180
+  audience: students, pro devs
+  level: beginner
+  tags: azure policies, azure deployment environment, github advanced security, microsoft dev box, dev center, azure, github, ops, csu
+  navigation_levels: 3
+
+  
+- title: Product Hands-on Lab - Platform engineering for Devs
+  url: https://microsoft.github.io/moaw/workshop/gh:ikhemissi/hands-on-lab-platform-engineering-for-devs/main/docs/
+  github_url: https://github.com/ikhemissi/hands-on-lab-platform-engineering-for-devs
+  language: en
+  last_updated: 2024-06-20
+  type: workshop
+  description:  This workshop will guide you on how to fast start your dev experience, how to deploy to Azure, and how to detect potential issues with your code during run time.
+  authors:
+    - Iheb Khemissi
+    - François-Xavier Kim
+    - Louis-Guillaume Morand
+  contacts:
+    - "@ikhemissi"
+    - "@frkim"
+    - "@lgmorand"
+  duration_minutes: 180
+  audience: pro devs, architects
+  level: beginner
+  tags: azure, devbox, ade, deployment environment, azd, azure developer cli, azure functions, azure load testing, application insights, csu
+  navigation_levels: 3
+
+- title: Product Hands-on Lab - Azure Functions deep dive
+  url: https://microsoft.github.io/moaw/workshop/gh:microsoft/hands-on-lab-azure-functions/main/docs/
+  github_url: https://github.com/microsoft/hands-on-lab-azure-functions
+  language: en
+  last_updated: 2024-09-09
+  type: workshop
+  description:  This workshop will cover the integration of Azure Functions Flex Consumption service with other Azure service. You will use it to build a complete real world scenario.
+  authors:
+  - Iheb Khemissi
+  - Julien Strebler
+  - Damien Aicheh
+  contacts:
+    - "@ikhemissi"
+    - "@justrebl"
+    - "@damienaicheh"
+  duration_minutes: 360
+  audience: students, pro devs
+  level: beginner
+  tags: azure, azure functions, azure durable functions, flex, open ai, apim, monitoring, cosmos db, csu, codespace, devcontainer
+  navigation_levels: 3
+
+- title: Build A Fabric Real-Time Intelligence Solution in One Day
+  url: https://microsoft.github.io/moaw/workshop/gh:microsoft/fabconrtitutorial/main/docs/
+  github_url: https://github.com/microsoft/FabConRTITutorial
+  language: en
+  last_updated: 2024-09-22
+  type: workshop
+  description:  In this technical workshop, you will build a complete analytics platform with streaming data using Microsoft Fabric Real-Time Intelligence components and other features of Microsoft Fabric. This is a proctor led worksop in which each section is accompanied by a technical overview of Fabric RTI components.
+  authors:
+  - Brian Bønk Rueløkke
+  - Devang Shah
+  - Frank Geisler
+  - Johan Ludvig Brattås
+  - Matt Gordon
+  contacts:
+    - "@shahdevangp"
+  duration_minutes: 360
+  audience: students, pro devs, data engineers, data architects, analysts
+  level: intermediate
+  tags: fabric, kql, realtime, intelligence, event, stream, sql, data, analytics, kusto, medallion, dashboard, reflex, activator
+
+- title: Running LLM models in AKS
+  description: This is a workshop for learning ow to deploy Ollama AI model deployment on Azure Kubernetes Service (AKS)
+  url: https://microsoft.github.io/moaw/workshop/gh:HoussemDellai/running-llms-on-aks/main/docs/
+  language: en
+  last_updated: 2024-10-09
+  type: workshop
+  level: beginner
+  github_url: https://github.com/HoussemDellai/running-llms-on-aks
+  authors:
+    - Houssem Dellai                          
+  contacts:
+    - houssem.dellai@microsoft.com
+  video_url: https://www.youtube.com/watch?v=INOeJg4ECh4
+  duration_minutes: 19
+  audience: students, pro devs
+  tags: llm, ai, aks, containers, ollama, chat, phi, llama
+
+- title: Product Hands-on Lab - Build serverless intelligent Apps with Azure Functions Flex Consumption and extension for OpenAI
+  url: https://microsoft.github.io/moaw/workshop/gh:microsoft/hands-on-lab-azure-functions-flex-openai/main/docs/
+  github_url: https://github.com/microsoft/hands-on-lab-azure-functions-flex-openai
+  language: en
+  last_updated: 2024-10-21
+  type: workshop
+  description:  In this workshop you will learn how to build an intelligent application that summarizes audio files using Azure Functions Flex Consumption and Azure OpenAI
+  authors:
+  - Iheb Khemissi
+  - Damien Aicheh
+  contacts:
+    - "@ikhemissi"
+    - "@damienaicheh"
+  duration_minutes: 60
+  audience: students, pro devs
+  level: beginner
+  tags: azure, azure functions, durable function, flex consumption, azure openai, entra id, cosmos db, csu, codespace, devcontainer, ignite
+  navigation_levels: 3
